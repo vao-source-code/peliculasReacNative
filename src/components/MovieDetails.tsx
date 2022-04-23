@@ -36,7 +36,7 @@ export const MovieDetails = ({ movieFull, cast }: Props) => {
 
         {/*Presupuesto */}
 
-        <Text style={styles.textTitle}>Presupuesto</Text>
+        <Text style={styles.textTitle}>Presupuesto</Text> 
 
         <Text style={styles.text}>{ currencyFormatter.format( movieFull.budget , {code: 'USD'}) }</Text>
       </View>
